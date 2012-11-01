@@ -4,7 +4,7 @@ Plugin Name: 123Formulier WordPress Contactformulier
 Plugin URI: http://www.123formulier.nl/
 Description: 123Formulier WordPress Contactformulier plugin. Usage notes, tips and tricks, <a href="http://www.123formulier.nl">here</a>.
 Author: 123Formulier.nl
-Version: 1.2.3
+Version: 1.2.4
 Author URI: http://www.123formulier.nl/
 */
 
