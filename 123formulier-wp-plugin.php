@@ -4,7 +4,7 @@ Plugin Name: 123Formulier WordPress Contactformulier
 Plugin URI: http://www.123formulier.nl/
 Description: 123Formulier WordPress Contactformulier plugin. Usage notes, tips and tricks, <a href="http://www.123formulier.nl">here</a>.
 Author: 123Formulier.nl
-Version: 1.2.4
+Version: 1.2.5
 Author URI: http://www.123formulier.nl/
 */
 
@@ -56,7 +56,7 @@ function w123cf_widget_text_filter( $content ) {
 	            {		  
 		        $toreplace=substr($tosearch,$i,$j-$i+1);
 
-				$formcode="<script type=\"text/javascript\">var customVars123='$customVars2';var servicedomain=\"www.123contactform.com\"; var cfJsHost = ((\"https:\" == document.location.protocol) ? \"https://\" : \"http://\"); document.write(unescape(\"%3Cscript src='\" + cfJsHost + servicedomain + \"/includes/easyXDM.min.js' type='text/javascript'%3E%3C/script%3E\")); document.write(unescape(\"%3Cscript src='\" + cfJsHost + servicedomain + \"/jsform-$id.js?\"+customVars123+\"' type='text/javascript'%3E%3C/script%3E\")); </script>";				
+				$formcode="<script type=\"text/javascript\">var customVars123='$customVars2';var servicedomain=\"www.123formulier.nl\"; var cfJsHost = ((\"https:\" == document.location.protocol) ? \"https://\" : \"http://\"); document.write(unescape(\"%3Cscript src='\" + cfJsHost + servicedomain + \"/includes/easyXDM.min.js' type='text/javascript'%3E%3C/script%3E\")); document.write(unescape(\"%3Cscript src='\" + cfJsHost + servicedomain + \"/jsform-$id.js?\"+customVars123+\"' type='text/javascript'%3E%3C/script%3E\")); </script>";				
 				$tosearch=str_replace($toreplace, $formcode, $tosearch);
 				 				
 				if ( is_callable('curl_init') ) {					
