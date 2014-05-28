@@ -66,6 +66,13 @@ Please see [author's blog](http://blog.123formulier.nl/category/wordpress/).
 4. Sample form in a WordPress post
 
 == Changelog ==
+
+= 1.2.6 =
+* minor bug fixes
+
+= 1.2.5 =
+* minor bug fixes
+
 = 1.2.4 =
 * allow custom variables
 

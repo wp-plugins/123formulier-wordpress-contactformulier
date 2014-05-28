@@ -28,6 +28,7 @@ function contact_123_register($plugin_array)
 function w123cf_widget_text_filter( $content ) {
     $tosearch = $content;
 	$ready=false;
+	$customVars2="";
     while ($ready==false)
         {		
 	    $i = strpos($tosearch, "[123-contact-form ");
