@@ -20,9 +20,9 @@ function request($api_key) {
         
     <title>123Formulier</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<script language="javascript" type="text/javascript" src="/wp-includes/js/tinymce/tiny_mce_popup.js"></script>
-	<script language="javascript" type="text/javascript" src="/wp-includes/js/tinymce/utils/mctabs.js"></script>
-	<script language="javascript" type="text/javascript" src="/wp-includes/js/tinymce/utils/form_utils.js"></script>
+	<script language="javascript" type="text/javascript" src="<?php echo site_url(); ?>/wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script language="javascript" type="text/javascript" src="<?php echo site_url(); ?>/wp-includes/js/tinymce/utils/mctabs.js"></script>
+	<script language="javascript" type="text/javascript" src="<?php echo site_url(); ?>/wp-includes/js/tinymce/utils/form_utils.js"></script>
 
           
     <style type="text/css">        
